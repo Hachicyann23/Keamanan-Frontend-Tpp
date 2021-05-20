@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,
+span,
+a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.tpp-page {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.tpp-navbar {
+    padding: 60px 0px;
+    width: 23%;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    z-index: 1001;
+    background: rgb(122, 22, 22);
+    scrollbar-width: none;
+}
+.tpp-logo {
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    display: block;
+    width: 100%;
+    position: relative;
+    color: #000;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+}
+aside .tpp-logo a i {
+    color: #000;
+    font-size: 16px;
+    vertical-align: super;
+}
+.tpp-listmenu {
+    display: block;
+}
+.tpp-listmenu ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.tpp-listmenu ul li {
+    margin: 9px 0 9px 0;
+    padding: 0 0 9px 0;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.tpp-listmenu ul li a {
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    border-bottom: 1px solid transparent;
+}
+.tpp-listmenu ul li a:hover {
+    border-bottom: 1px solid #000;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.tpp-listmenu ul li.acitve a {
+    color: orange;
+}
+.tpp-footer {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    color: #666;
+}
+.tpp-footer .tpp-social a {
+    color: #666;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background: transparent;
+    margin: 0 5px 15px 0;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    font-size: 24px;
+}
+.tpp-main {
+    width: 77%;
+    float: right;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+/*content swiper slider */
+.swiper-slide .tpp-desc {
+    position: absolute;
+    width: 30%;
+    bottom: 15px;
+    left: 10px;
+    padding: 30px;
+    background: #fff;
+}
+.swiper-slide .tpp-desc .tpp-btn {
+    position: relative;
+    line-height: 1em;
+}
+.swiper-slide .tpp-desc .tpp-btn a {
+    font-family: "Nunito Sans", sans-serif;
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    padding: 12px 30px;
+    margin: 0;
+    font-weight: 500;
+    position: relative;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.tpp-desc h5 {
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+}
+img {
+    height: 100vh;
+    width: 77vw;
+}
+
+
+.tpp-services{
+    padding: 100px 50px ;
+}
+.tpp-services .tpp-headService{
+    margin-bottom: 30px;
+}
+.tpp-services .tpp-headService span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+.tpp-services .tpp-headService h3 {
+    font-family: "Nunito Sans", sans-serif;
+}
+.tpp-items {
+    position: relative;
+    overflow: hidden;
+}
+.tpp-items .tpp-itemsBtn {
+    padding: 30px 15px;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-align: center;
+    z-index: 20;
+    height: auto;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, .01) 2%, rgba(0, 0, 0, .75) 90%);
+}
+.tpp-items img {
+    height: 50vh;
+}
+.tpp-items img:hover {
+    transform: scale(1.09, 1.09);
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.tpp-items .tpp-itemsBtn:hover {
+    bottom: 0;
+}
+
+
+
+
+
+/* swipper css contetnt */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
