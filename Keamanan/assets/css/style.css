@@ -188,7 +188,7 @@ img {
 .tpp-items .tpp-itemsBtn {
     padding: 30px 15px;
     position: absolute;
-    bottom: -60px;
+    bottom: -20px;
     left: 0;
     width: 100%;
     -webkit-transition: all .3s;
@@ -202,7 +202,7 @@ img {
 .tpp-items img {
     height: 50vh;
 }
-.tpp-items img:hover {
+.tpp-items:hover img{
     transform: scale(1.09, 1.09);
     -webkit-filter: brightness(70%);
     -webkit-transition: all 1s ease;
@@ -211,10 +211,32 @@ img {
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
-.tpp-items .tpp-itemsBtn:hover {
+.tpp-items:hover .tpp-itemsBtn {
     bottom: 0;
 }
 
+
+.tpp-footer2 {
+    padding: 100px 60px;
+    background: #000;
+    width: 77vw;
+    height: 20vh;
+}
+.tpp-footer2 h2 {
+    color: white;
+}
+.tpp-contentFooter2{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.tpp-contentFooter2 div {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
 
 
 
