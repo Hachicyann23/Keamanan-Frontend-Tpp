@@ -238,6 +238,24 @@ aside .tpp-logo a i {
     max-width: 33.333333%;
 }
 
+
+
+
+.tpp-banner {
+    position: relative;
+}
+.tpp-bannerImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tpp-divImg::after{
+    right: 0;
+    left: 0;
+    content: "";
+    background: linear-gradient(hsla(0, 0%, 100%, .8), hsla(0, 0%, 100%, .9) 50%, #fff);
+}
+
 .tpp-signContainer {
     margin: 0px auto;
     max-width: 32rem;
