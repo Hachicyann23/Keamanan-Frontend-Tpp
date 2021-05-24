@@ -246,14 +246,9 @@ aside .tpp-logo a i {
 }
 .tpp-bannerImg{
     width: 100%;
-    height: 100%;
+    height: 200px;
     object-fit: cover;
-}
-.tpp-divImg::after{
-    right: 0;
-    left: 0;
-    content: "";
-    background: linear-gradient(hsla(0, 0%, 100%, .8), hsla(0, 0%, 100%, .9) 50%, #fff);
+    -webkit-filter: brightness(50%);
 }
 
 .tpp-signContainer {
@@ -338,6 +333,14 @@ aside .tpp-logo a i {
     padding: 0.78125rem 1.5rem;
 }
 
+.tpp-btnForm{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Cormorant Garamond", serif;
+}
 
 
 
