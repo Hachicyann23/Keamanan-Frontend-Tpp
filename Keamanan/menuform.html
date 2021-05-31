@@ -1,30 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/b4f4eda484.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
+
 <body>
-    <div id="page1" style="height: 100vh;background: rebeccapurple;">
-        <a href="#page2" "><div style="width:200px;background: red;font-size: 3em;">next</div></a>
-    </div>
-    <div id="page2" style="height: 100vh;background: blue;">
-        <a href="#page3" "><div style="width:200px;background: red;font-size: 3em;">next</div></a>
-        <a href="#page1" "><div style="width:200px;background: red;font-size: 3em;">prev</div></a>
-    </div>
-    <div id="page3" style="height: 50vh;background: pink;transition: 1s ease-in-out;">
-        <a href="#page4" "><div style="width:200px;background: red;font-size: 3em;">next</div></a>
-        <a href="#page2" "><div style="width:200px;background: red;font-size: 3em;">prev</div></a>
-    </div>
-    <div id="page4" style="height: 50vh;background: yellow;">
-        <a href="#page5" "><div style="width:200px;background: red;font-size: 3em;">next</div></a>
-        <a href="#page3" "><div style="width:200px;background: red;font-size: 3em;">prev</div></a>
-    </div>
-    <div id="page1" style="height: 50vh;background: green;">
-        <a href="page2" "><div style="width:200px;background: red;font-size: 3em;">next</div></a>
-    </div>
-    
+    <div class="tpp-page">
+        <aside class="tpp-navbar">
+            <h1 class="tpp-logo">
+                <a href="index.html">MiWi<i class="far fa-registered"></i></a>
+            </h1>
+            <nav class="tpp-listmenu">
+                <ul>
+                    <li><a href="#"> menu 1</a></li>
+                    <li><a href="#"> menwaefu 1</a></li>
+                    <li><a href="#"> menu 123</a></li>
+                    <li><a href="#"> menwaef 1</a></li>
+                    <li><a href="#"> meaanu 1</a></li>
+                </ul>
+            </nav>
+            <div class="tpp-footer">
+                <h2>footer</h2>
+                <div class="tpp-social">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                </div>
+            </div>
+
+
+        </aside>
+        <div class="tpp-main">
+            <aside class="tpp-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/img/1.jpg" alt="">
+                            <div class="tpp-desc">
+                                <h5>Wedding</h5>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ex!</p>
+                                <div class="tpp-btn"><a href="">Read More</a> </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="assets/img/2.jpg" alt="">
+                            <div class="tpp-desc">
+                                <h5>Wedding</h5>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ex!</p>
+                                <div class="tpp-btn"><a href="">Read More</a> </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="assets/img/3.jpg" alt="">
+                            <div class="tpp-desc">
+                                <h5>Wedding</h5>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ex!</p>
+                                <div class="tpp-btn"><a href="">Read More</a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <form action="">
+                <div class="tpp-categoryContainer">
+                    <div class="tpp-categoryHeader">
+                        <span>Weddings</span>
+                        <h3>Our Services</h3>
+                    </div>
+                    <div class="tpp-categoryBox">
+                        <div class="tpp-radioButtons">
+                            <label class="custom-radio">
+                              <input type="radio" name="paket" checked />
+                              <span class="radio-btn"><i class="las la-check"></i>
+                                <div class="hobbies-icon">
+                                  <i class="las la-biking"></i>
+                                  <h3>Biking</h3>
+                                </div>
+                              </span>
+                            </label>
+                            <label class="custom-radio">
+                              <input type="radio" name="paket" />
+                              <span class="radio-btn"><i class="las la-check"></i>
+                                <div class="hobbies-icon">
+                                  <i class="las la-futbol"></i>
+                                  <h3>Football</h3>
+                                  <p>Lorem, ipsum dolor.</p>
+                                </div>
+                              </span>
+                            </label>
+                            <label class="custom-radio">
+                              <input type="radio" name="paket" />
+                              <span class="radio-btn"><i class="las la-check"></i>
+                                <div class="hobbies-icon">
+                                  <i class="las la-table-tennis"></i>
+                                  <h3>Table Tennis</h3>
+                                </div>
+                              </span>
+                            </label>
+                            <label class="custom-radio">
+                              <input type="radio" name="paket" />
+                              <span class="radio-btn"><i class="las la-check"></i>
+                                <div class="hobbies-icon">
+                                  <i class="las la-ellipsis-h"></i>
+                                  <h3>Other</h3>
+                                </div>
+                              </span>
+                            </label>
+                          </div>
+                    </div>
+                </div>
+            </form>
+            <div class="tpp-footer2">
+                <div class="tpp-contentFooter2">
+                    <div>
+                        <h2>Weddings</h2>
+                    </div>
+                    <div>
+                        <h2>Footer</h2>
+                    </div>
+                    <div>
+                        <h2>backup</h2>
+                    </div>
+                </div>
+            </div>
 </body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/owl.auto.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/swipper.js"></script>
+
 </html>
