@@ -98,10 +98,10 @@ aside .tpp-logo a i {
 }
 .tpp-footer {
     position: absolute;
-    bottom: 30px;
+    bottom: 50px;
     right: 0;
     left: 0;
-    font-size: 15px;
+    font-size: 1rem;
     text-align: center;
     font-weight: 400;
     color: #666;
@@ -372,11 +372,9 @@ aside .tpp-logo a i {
 }
 .tpp-categoryBox{
     display: flex;
+    justify-content: center;
 }
-
-
-
-  .radio-buttons {
+.radio-buttons {
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -388,8 +386,8 @@ aside .tpp-logo a i {
 
   .radio-btn {
     margin: 10px;
-    width: 180px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
     border: 3px solid transparent;
     display: inline-block;
     border-radius: 10px;
