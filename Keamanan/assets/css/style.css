@@ -383,7 +383,7 @@ aside .tpp-logo a i {
     height: 25em;
     border: 3px solid transparent;
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 15px;
     position: relative;
     text-align: center;
     box-shadow: 0 0 20px #c3c3c367;
@@ -393,13 +393,14 @@ aside .tpp-logo a i {
 .radio-btn img {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
     object-fit: cover;
 }
 .radio-btn h1 {
     position: absolute;
     background:linear-gradient( to top, rgba(116, 88, 88, 0.726) , rgba(116, 88, 88, 0.151)) ;
     width: 100%;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 10px 0;
     bottom: 0;
     color: white;
@@ -408,6 +409,7 @@ aside .tpp-logo a i {
 .custom-radio input:checked + .radio-btn {
     border: 5px solid #8373e6;
     transform: translateY(-20px);
+    line-height: 10em;
 }
 
 
