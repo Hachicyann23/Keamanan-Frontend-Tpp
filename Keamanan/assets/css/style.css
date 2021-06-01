@@ -406,10 +406,29 @@ aside .tpp-logo a i {
 }
 
 .custom-radio input:checked + .radio-btn {
-    border: 3px solid #8373e6;
+    border: 5px solid #8373e6;
     transform: translateY(-20px);
 }
 
+
+/*dashboard css */
+.tpp-bannerDashboard {
+    padding: 30px 20px;
+    line-height: 2em;
+}
+.tpp-contentDashboard{
+    background: rgb(175, 174, 174);
+}
+.tpp-boxDcontainer {
+    display: grid;
+    grid-template-areas:'A B'
+                        'C D';
+    grid-gap: 20px;
+}
+.tpp-boxA {grid-area: A;}
+.tpp-boxB {grid-area: B;}
+.tpp-boxC {grid-area: C;}
+.tpp-boxD {grid-area: D;}
 
 
 
