@@ -417,19 +417,60 @@ aside .tpp-logo a i {
     line-height: 2em;
 }
 .tpp-contentDashboard{
-    background: rgb(175, 174, 174);
+    background: rgba(218, 218, 218, 0.623);
+    
 }
 .tpp-boxDcontainer {
     display: grid;
     grid-template-areas:'A B'
                         'C D';
-    grid-gap: 20px;
+    grid-gap: 1.8em;
 }
-.tpp-boxA {grid-area: A;}
-.tpp-boxB {grid-area: B;}
-.tpp-boxC {grid-area: C;}
-.tpp-boxD {grid-area: D;}
+.tpp-boxA {
+    grid-area: A;
+    background: #1c84c6;
+}
+.tpp-boxB {
+    grid-area: B;
+    background: #f8ac59;
+}
+.tpp-boxC {
+    grid-area: C;
+    background: #ed5565;
+}
+.tpp-boxD {
+    grid-area: D;
+    background: #19b394;
+}
 
+.tpp-boxDcontainer .tpp-outerBox {
+    
+    border-radius: 10px;
+    padding: 30px 10px;
+    line-height: 2em;
+    margin: 20px;
+    display: flex;
+    color: honeydew;
+
+}
+.tpp-boxDcontainer .tpp-outerBox i {
+    position: relative;
+    font-size: 3.5em;
+    width: 40%;
+    height: 100%;
+}
+.tpp-boxDcontainer .tpp-outerBox .tpp-textBoxD  {
+    width: 60%;
+    text-align: end;
+    font-size: 1.5em;
+}
+.tpp-listContainer {
+    margin: 20px;
+}
+.tpp-listContainer .tpp-listViewBox{
+    border-radius: 10px;
+    background: red;
+}
 
 
 
