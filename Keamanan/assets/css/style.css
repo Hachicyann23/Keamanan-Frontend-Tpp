@@ -409,7 +409,7 @@ aside .tpp-logo a i {
 .custom-radio input:checked + .radio-btn {
     border: 5px solid #8373e6;
     transform: translateY(-20px);
-    line-height: 10em;
+    line-height: 8em;
 }
 
 
