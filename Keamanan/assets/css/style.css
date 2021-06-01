@@ -194,7 +194,7 @@ aside .tpp-logo a i {
 }
 .tpp-items:hover img {
     transform: scale(1.09, 1.09);
-    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -475,6 +475,66 @@ aside .tpp-logo a i {
 }
 
 
+
+
+
+
+/* Chart CSS Content */
+.tpp-chartContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tpp-chartContainer .tpp-chartCard {
+    background: #fff;
+    margin: 20px 0;
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.tpp-chartContainer .tpp-chartCard .tpp-chartCirlce{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: default;
+}
+.tpp-chartCard .tpp-chartCirlce .tpp-chartBox {
+    height: 100%;
+    width: 100%;
+    background: #fff ;
+    border-radius: 50%;
+    transform: translate(0, -105%) scale(0.8);
+    transition: all 0.2s;
+}
+.tpp-chartCard .tpp-chartCirlce:hover .tpp-chartBox{
+    transform: translate(0, -105%) scale(0.91);
+}
+.tpp-chartCard .tpp-chartCirlce .tpp-chartBox span , .tpp-chartContainer .tpp-chartCard .tpp-chartText{
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+    font-weight: 900;
+}
+.tpp-chartCirlce .tpp-chartBox span {
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 40%;left: 25%;
+    transition: all 0.1s;
+}
+.tpp-chartCard .tpp-chartCirlce:hover  .tpp-chartBox span{
+    transform: scale(1);
+}
 
 /* swipper css contetnt */
 .swiper-container {
