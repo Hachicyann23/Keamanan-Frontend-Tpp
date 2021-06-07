@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/radiobtn.js"></script>
 </head>
 
 <body>
@@ -32,89 +34,62 @@
             <div class="tpp-footer">
                 <h2>footer</h2>
                 <div class="tpp-social">
-                    <a href="#"><i><img src="assets/img/facebook.svg" ></i></a>
-                    <a href="#"><i><img src="assets/img/instagram.svg" ></i></a>
-                    <a href="#"><i><img src="assets/img/pinterest.svg" ></i></a>
-                    <a href="#"><i><img src="assets/img/twitter.svg" ></i></a>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-square"></i></a>
                 </div>
             </div>
 
 
         </aside>
         <div class="tpp-main">
-            <aside class="tpp-slider">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="assets/img/1.jpg" alt="">
-                            <div class="tpp-desc">
-                                <h5>Wedding</h5>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ex!</p>
-                                <div class="tpp-btn"><a href="">Read More</a> </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide"><img src="assets/img/2.jpg" alt="">
-                            <div class="tpp-desc">
-                                <h5>Wedding</h5>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ex!</p>
-                                <div class="tpp-btn"><a href="">Read More</a> </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide"><img src="assets/img/3.jpg" alt="">
-                            <div class="tpp-desc">
-                                <h5>Wedding</h5>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ex!</p>
-                                <div class="tpp-btn"><a href="">Read More</a> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </aside>
+            <div class="tpp-categoryHeader">
+                <span>Weddings</span>
+                <h3>Our Services</h3>
+            </div>
             <form action="">
                 <div class="tpp-categoryContainer">
-                    <div class="tpp-categoryHeader">
-                        <span>Weddings</span>
-                        <h3>Our Services</h3>
-                    </div>
                     <div class="tpp-categoryBox">
                         <div class="tpp-radioButtons">
                             <label class="custom-radio">
-                              <input type="radio" name="paket" checked />
-                              <span class="radio-btn">
-                                <div class="hobbies-icon">
-                                  <i class="las la-biking"></i>
-                                  <h3>Biking</h3>
+                                <input type="radio" name="paket" value="aa"/>
+                                <div class="radio-btn">
+                                    <h1>Makassar</h1>
+                                    <img src="assets/img/1.jpg" alt="">
                                 </div>
-                              </span>
                             </label>
                             <label class="custom-radio">
-                              <input type="radio" name="paket" />
-                              <span class="radio-btn">
-                                <div class="hobbies-icon">
-                                  <i class="fas fa-bicycle 2x"></i>
-                                  <h3>Football</h3>
-                                  <p>Lorem, ipsum dolor.</p>
+                                <input type="radio" name="paket" value="bb"/>
+                                <div class="radio-btn">
+                                    <h1>Makassar</h1>
+                                    <img src="assets/img/2.jpg" alt="">
                                 </div>
-                              </span>
                             </label>
                             <label class="custom-radio">
-                              <input type="radio" name="paket" />
-                              <span class="radio-btn">
-                                <div class="hobbies-icon">
-                                  <i class="las la-table-tennis"></i>
-                                  <h3>Table Tennis</h3>
+                                <input type="radio" name="paket" value="cc" />
+                                <div class="radio-btn">
+                                    <h1>Makassar</h1>
+                                    <img src="assets/img/3.jpg" alt="">
                                 </div>
-                              </span>
                             </label>
                             <label class="custom-radio">
-                              <input type="radio" name="paket" />
-                              <span class="radio-btn">
-                                <div class="hobbies-icon">
-                                  <i class="las la-ellipsis-h"></i>
-                                  <h3>Other</h3>
+                                <input type="radio" name="paket" />
+                                <div class="radio-btn">
+                                    <h1>Makassar</h1>
+                                    <img src="assets/img/1.jpg" alt="">
                                 </div>
-                              </span>
                             </label>
-                          </div>
+                        </div>
+                    </div>
+                    <div class="test22 aa" style="background: green;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa aperiam odit eligendi ex autem dolore illum eveniet, quidem aut totam quibusdam voluptate necessitatibus incidunt velit expedita, qui voluptates amet?
+                    </div>
+                    <div class="test22 bb" style="background: red;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa aperiam odit eligendi ex autem dolore illum eveniet, quidem aut totam quibusdam voluptate necessitatibus incidunt velit expedita, qui voluptates amet?
+                    </div>
+                    <div class="test22 cc" style="background: blue;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa aperiam odit eligendi ex autem dolore illum eveniet, quidem aut totam quibusdam voluptate necessitatibus incidunt velit expedita, qui voluptates amet?
                     </div>
                 </div>
             </form>
@@ -131,6 +106,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 </body>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
