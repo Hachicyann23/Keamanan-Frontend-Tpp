@@ -418,6 +418,7 @@ aside .tpp-logo a i {
     padding: 1rem;
 }
 .tpp-listRadio {
+    text-align: center;
     display: grid;
     grid-gap: 1em;
     margin: 2em ;
@@ -433,6 +434,7 @@ aside .tpp-logo a i {
     grid-area: foto;
 }
 .tpp-judulRadio {
+    
     grid-area: judul;
     background: red;
 }
@@ -440,8 +442,28 @@ aside .tpp-logo a i {
     grid-area: detail;
     background: wheat;
 }
+.tpp-containerBtnRadio {
+    display: grid;
+    margin: 0 2rem;
+    grid-template-areas:'harga harga bayar '
+                        'harga harga bayar ';
+}
+.tpp-totalRadio {
+    grid-area: harga ;
+    background:purple;
+}
+.tpp-totalRadio p {
+    margin: 2rem;
+}
+.tpp-btnTotalRadio {
+    grid-area: bayar;
+    background: greenyellow;
 
-
+}
+.tpp-btnTotalRadio button {
+    width: 100px;
+    margin: 2rem;
+}
 
 /*dashboard css */
 .tpp-bannerDashboard {
