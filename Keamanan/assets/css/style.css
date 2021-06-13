@@ -415,10 +415,31 @@ aside .tpp-logo a i {
 
 .test22 {
     display: none;
-    margin: 200px;
-    padding: 200px;
+    padding: 1rem;
 }
-
+.tpp-listRadio {
+    display: grid;
+    grid-gap: 1em;
+    margin: 2em ;
+    grid-template-areas: ' foto  judul '
+                         ' foto  detail '
+                         ' foto  detail ';
+}
+.tpp-listRadio img {
+    width: 300px;
+    height: 350px;
+}
+.tpp-radioImg {
+    grid-area: foto;
+}
+.tpp-judulRadio {
+    grid-area: judul;
+    background: red;
+}
+.tpp-detailRadio {
+    grid-area: detail;
+    background: wheat;
+}
 
 
 
